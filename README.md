@@ -114,6 +114,11 @@ pm2 logs
 ## Documentation
 
 ```bash
+# Update yarn postdocs script as per your operating system in package.json file,
+Windows:  start docs/index.html
+Linux:    xdg-open docs/index.html
+OSX:      open docs/index.html
+
 # generate and open api documentation
 yarn docs
 ```
